@@ -13,3 +13,7 @@
 ### WorkFlow
 
  When you place an order via the WP Funnels template page, the order-related customer information will be stored in the database. When the total order count reaches 100, a greetings email will be sent to each customer. Once the email has been successfully sent to 100 customers, this plugin will remove those customer records from the database.
+
+
+### Any Query 
+#### shahnaouzrazu91@gmail.com

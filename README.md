@@ -15,4 +15,4 @@ Upload this addon/plugin, then install and activate it. You can also upload the 
  When you place an order via the WP Funnels template page, the order-related customer information will be stored in the database. When the total order count reaches 100, a greetings email will be sent to each customer. Once the email has been successfully sent to 100 customers, this plugin will remove those customer records from the database.
 
  ### Note
- I did not write code inside the wpfunnels/public/modules/checkout/class-wpfnl-checkout.php file because it's not standard practice to modify a plugin directly. Instead, I created a separate plugin and used the WP Funnels plugin <b>Hook</b> that is triggered in the save_checkout_fields function.
+ I did not write code inside the wpfunnels/public/modules/checkout/class-wpfnl-checkout.php file because it's not standard practice to modify a plugin directly. Instead, I created a separate plugin and used the WP Funnels plugin <b>Hook</b> that is triggered in the <b>save_checkout_fields</b> function.

@@ -33,7 +33,7 @@
         $collate = '';
 
         if($wpdb->has_cap('collation')){
-            $collate = $wpdb->get_charset_collage();
+            $collate = $wpdb->get_charset_collate();
         }
 
         $table_name = $wpdb->prefix . 'wpf_og_customers';
